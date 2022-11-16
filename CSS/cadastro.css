@@ -1,0 +1,104 @@
+#body-index{
+    margin: 0;
+    padding: 0;
+    background: rgb(87, 87, 87)
+}
+
+
+a{
+    color: #FFF2E7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    height: 40px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #23232e;
+    height: 8vh;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+}
+ul{
+    padding: 0;
+}
+
+.menu>li{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:#FFF2E7;
+    margin-bottom: 5%;
+}
+.titulo-cadastro{
+    color: #23232e;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    background: #b6b5b5;
+}
+h2{
+    font-size: 40px;
+    margin: 20px;
+}
+::placeholder{
+color: #FFF2E7;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+.cadastro>input{
+    
+    border: none;
+    border-radius: 20px;
+    color: #FFF2E7;
+    outline: none;
+    font-size: 12px;
+    padding: 10px 30px;
+    background: #23232e;
+}
+
+.botao-cadastro{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer; 
+    background-color: #23232e;
+    color: #FFF2E7;
+}
+.botao-cadastro:hover{
+    background-color: rgb(161, 161, 161);
+    color: #23232e;
+}
+

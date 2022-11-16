@@ -1,0 +1,120 @@
+
+#body-edicao{
+    margin: 0;
+    padding: 0;
+    background: rgb(87, 87, 87)
+}
+
+.editar{
+    border: none;
+    cursor: pointer;
+}
+
+
+.edicao-input>input{
+    border: none;
+    border-radius: 20px;
+    color: rgb(224, 224, 224);
+    outline: none;
+    font-size: 12px;
+    padding: 10px 30px;
+    background: #111111;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+.botao-edicao{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer; 
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+    cursor: pointer;
+}
+.botao-edicao:hover{
+    background-color: rgb(161, 161, 161);
+    color: #111111;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(22, 22, 22);
+    text-transform: uppercase;
+}
+
+.corpo-edicao{
+    background: #b6b5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edicao-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.edicao-botao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+/*MENU*/
+
+a{
+    color: #FFF2E7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    height: 40px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background: #23232e;
+    height: 8vh;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+}
+ul{
+    padding: 0;
+}
+
+.menu>li{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}

@@ -1,0 +1,98 @@
+#body-tabela{
+    margin: 0;
+    padding: 0;
+    background: rgb(87, 87, 87)
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #FFF2E7;
+    padding-top: 2%;
+    margin-bottom: -2%;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+th{
+    height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tabela-linha-botao{
+    border: none;
+    background: #c7c7c7;
+}
+.botao{
+    border-radius: 10px;
+    border: 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: #f3f2f2;
+    cursor: pointer;
+}
+
+table{
+    width: 35%;
+    border: 1px solid;
+    border-radius: 20px;
+    background: #c7c7c7;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+td{
+    width: 35%;
+    font-size: 16px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: #f3f2f2;
+}
+
+/*MENU*/
+
+.logo{
+    height: 40px;
+}
+
+a{
+    color: #FFF2E7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #23232e;
+    height: 8vh;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+}
+ul{
+    padding: 0;
+}
+
+.menu>li{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
